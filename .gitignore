@@ -1,0 +1,22 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data (keep large or private datasets out of git)
+data/
+*.csv
+*.parquet
+*.nc
+*.h5
+
+# OS/Editor
+.vscode/
+.idea/
